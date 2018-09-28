@@ -1,4 +1,5 @@
-﻿liste = []
+﻿# -*- coding: utf-8 -*
+liste = []
 lol = False
 while lol==False:
     a = int(input("Nombre : "))

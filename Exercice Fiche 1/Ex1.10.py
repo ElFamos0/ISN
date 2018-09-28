@@ -1,4 +1,5 @@
-﻿phrase = input("Rentre une phrase : ")
+﻿# -*- coding: utf-8 -*
+phrase = input("Rentre une phrase : ")
 phrase_inverse = ""
 
 for lettre in phrase:
