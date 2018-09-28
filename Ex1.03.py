@@ -1,4 +1,5 @@
-﻿from math import sqrt
+﻿# -*- coding : utf8 -*-
+from math import sqrt
 xa = int(input("Coordonnée xA"))
 ya = int(input("Coordonnée yA"))
 xb = int(input("Coordonnée xB"))

@@ -1,4 +1,5 @@
-﻿xa = int(input("xa"))
+﻿# -*- coding : utf8 -*-
+xa = int(input("xa"))
 ya = int(input("ya"))
 xb = int(input("xb"))
 yb = int(input("yb"))
