@@ -24,4 +24,6 @@ for i in range(0,7):
 	b = randint(0,len(a)-1)
 	lettreschoisies += a[b]
 
-print(lettreschoisies)
+print("Voici votre tirage : ",lettreschoisies)
+
+rep = input("Quel mot pouvez vous former avec ces lettres ? : ").upper()
