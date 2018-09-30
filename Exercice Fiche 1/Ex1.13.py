@@ -27,3 +27,8 @@ for i in range(0,7):
 print("Voici votre tirage : ",lettreschoisies)
 
 rep = input("Quel mot pouvez vous former avec ces lettres ? : ").upper()
+
+if rep in lettreschoisies:
+	print("Oui c'est ça")
+else:
+	print("Non ce n'est pas dans la liste de lettre ")
