@@ -4,4 +4,8 @@ leetstring = string
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 leetspeak = ["4","8","<","|)","3","|=","[,","|=|","1","_|","|<","|_","/x\\","|\\|","0","|O","(,)","R","5","7","|_|","\\/","\\X/","%","¥","7_"]
-print(leetspeak)
+
+
+for i in range (0,26):
+
+	leetstring = leetstring.remove(str(alphabet[i]), str(leetspeak[i]))
