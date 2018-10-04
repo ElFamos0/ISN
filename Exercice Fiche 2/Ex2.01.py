@@ -1,4 +1,4 @@
-﻿#coding: utf-8
+﻿# -*- coding : utf8 -*-
 sequence = "ATATACGGATCGGCTGTTGCCTGCGTAGTAGCGT"
 A = sequence.count("A")
 T = sequence.count("T")
