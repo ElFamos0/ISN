@@ -1,4 +1,5 @@
-﻿liste1 = "AGWPSGGASAGLAIL"
+﻿# -*- coding : utf8 -*-
+liste1 = "AGWPSGGASAGLAIL"
 liste2 = "IGWPSAGASAGLWIL"
 hamming = 0
 for i in range(0,len(liste1)):
