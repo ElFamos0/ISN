@@ -16,3 +16,5 @@ if a == 0:
 elif a == 1:
 	f = eval(input("Rentrer votre température en Fahrhenheit : " ))
 	print(ConvertirenCelsius(f)) 
+else:
+	print("Vous n'avez pas suivi les consignes")
