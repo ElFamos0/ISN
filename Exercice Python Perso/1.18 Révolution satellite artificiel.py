@@ -10,3 +10,4 @@ H  = int(T)
 M = floor(60*(T-int(T)))
 print("La période de révolution pour un satellite lancée à",h,"km\nT = ",H,"h",M,"min")
 
+
