@@ -1,7 +1,8 @@
 # -*- coding : utf8 
 '''
 	Auteur : Malo
-	Fraction Egyptienne
+	Titre : Fraction Egyptienne
+	Stade : Terminé
 '''
 from fractions import Fraction
 
