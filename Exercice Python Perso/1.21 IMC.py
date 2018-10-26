@@ -15,5 +15,5 @@ if IMC < 25 :
 	print("Tout va bien ! Vous avez un poids idéal pour votre taille")
 elif IMC>=25 and IMC <=30:
 	print("Vous êtes en surpoid vous ferez mieux de faire un peu d'exercice")
-else : 
+elif IMC >= 30:	
 	print("Vous êtes obèse")
