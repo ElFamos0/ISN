@@ -1,19 +1,24 @@
 # -*- coding : utf8 -*-
-
-'''
-	Auteur : MDTech
-	Titre : IMC 
-	Création : 25/10/2018
-	Stade : Terminé
-'''
-P = eval(input("Entrez votre poids (en kg) : "))
-T = eval(input("Entrez votre taille (en m) : "))
-
-IMC = round(P/(T**2),1)
-print("Votre IMC est de : ",IMC,"kg/m^2")
-if IMC < 25 :
-	print("Tout va bien ! Vous avez un poids idéal pour votre taille")
-elif IMC>=25 and IMC <=30:
-	print("Vous êtes en surpoid vous ferez mieux de faire un peu d'exercice")
-else : 
-	print("Vous êtes obèse")
+from turtle import*
+longueur_cote = 100
+diagonale = 141.42   
+cote_superieur = 70.71
+for i in range(1,5):
+    forward(longueur_cote)
+    left(90)
+left(45)
+forward(diagonale)
+left(135)
+up()
+forward(longueur_cote)
+left(135)
+down()
+forward(diagonale)
+up()
+left(135)
+forward(longueur_cote)
+left(45)
+down()
+forward(cote_superieur)
+left(90)
+forward(cote_superieur)
