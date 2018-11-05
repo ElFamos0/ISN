@@ -18,3 +18,4 @@ try :
 	print("Ce jour était un",jours_de_la_semaine[j]) 
 except:
 	print("Suis les consignes s'il te plait")
+	
