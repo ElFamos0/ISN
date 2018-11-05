@@ -16,4 +16,4 @@ if IMC < 25 :
 elif IMC>=25 and IMC <=30:
 	print("Vous êtes en surpoid vous ferez mieux de faire un peu d'exercice")
 elif IMC >= 30:	
-	print("Vous êtes obèse")
+	print("Vous êtes obèse; votre santé est menacé")
