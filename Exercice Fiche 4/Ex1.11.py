@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*
 
-def PremierMot(x):
+def PremierMot(x)
 	"Renvoit le premier mot d'une chaine de caractère x"
 	lol = x.split(" ")
 	return lol[0]
