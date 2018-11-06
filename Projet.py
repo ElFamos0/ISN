@@ -1,9 +1,9 @@
 # -*- coding : utf8 -*-
 from turtle import*
 longueur_cote = 100
-diagonale = 141.42   
+diagonale = 141.42
 cote_superieur = 70.71
-for i in range(1,5):
+for i in range(1, 5):
     forward(longueur_cote)
     left(90)
 left(45)
