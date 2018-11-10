@@ -4,8 +4,7 @@ Somme, nombredetermes, morethan100, = 0, 0, 0
 
 x = int(input("Entrer un nombre entier (0 pour arrêter le programme): "))
 
-while:
-    pass x > 0:
+while x > 0:
     Somme += x
     nombredetermes += 1
     if x >= 100:
