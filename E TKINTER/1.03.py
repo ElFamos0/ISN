@@ -6,22 +6,23 @@ Auteur : Malo Damien
 
 from tkinter import*
 
-#Fonctions
+# Fonctions
+
 
 def Effacer():
     s1.delete(0, last=END)
     s2.delete(0, last=END)
 
+
 def Valider():
     for i in fen.winfo_children():
         i.grid_forget()
     l3 = Label(text="Vos données ont bien été envoyé")
-    l3.place(x=10,y=20)
+    l3.place(x=10, y=20)
 
 
+# Programme Principal
 
-
-#Programme Principal
 
 fen = Tk()
 fen.title("Malo")
@@ -34,10 +35,10 @@ s1 = Entry(width=25)
 s1.grid(column=2, row=4, columnspan=2)
 s2 = Entry(width=25)
 s2.grid(column=2, row=8, columnspan=2)
-but1 = Button(text="Effacer",command=Effacer)
-but1.grid(column=2,row=9,sticky="E")
-but2 = Button(text="Valider",command=Valider)
-but2.grid(column=3,row=9,sticky="W")
+but1 = Button(text="Effacer", command=Effacer)
+but1.grid(column=2, row=9, sticky="E")
+but2 = Button(text="Valider", command=Valider)
+but2.grid(column=3, row=9, sticky="W")
 
 
 fen.mainloop()
