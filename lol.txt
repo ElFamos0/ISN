@@ -1,0 +1,26 @@
+Truc sympa sur Pygame
+
+
+import pygame --> ça import le module qui faut au préalable installer sur le pip
+pygame.init() --> charge les fonctions de base pour faire fonctionner pygame
+x = pygame.display.set_mode(res, option)  res = (680,480) 
+les différentes options sont : 
+pygame.FULLSCREEN --> met en plein écran
+pygame.RESIZABLE --> permet de changer la taille de la fenètre
+pygame.NOFRAME --> plus de contour sur la fenètre
+pygame.OPENGL --> fait fonctionner du open gl sur python
+pygame.HWSURFACE --> Utiliser la carte graphique
+pygame.DOUBLEBUF --> Meilleure qualité d'animation et évite le scintillement
+
+
+On peut changer une résolution sur une surface en écrivant une nouvelle valeur de résolution et un nouveau x = pygame.display.set_mode(res)
+Il ne peut avoir qu'une fenètre dans pygame donc ça va juste changer celle de base.
+
+print(pygame.display.Info()) --> permet de connaître les infos d'un diplay.
+print(pygame.get_sdl_version()) --> permet de connaitre la version de la SDL.
+
+pygame.display.set_caption("Titre de fenètre") --> permet de mettre un titre à la fenètre. 
+
+
+pygame.quit() --> permet de décharger tout ce qui a été  chargé avec pygame.init() mais c'est pas très utile car python le fait déjà tout seul
+Cela peut servir seulement pour fermer tout les modules pygame et en charger qu'un seul en particulier genre le module display par exemple
