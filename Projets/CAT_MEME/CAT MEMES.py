@@ -1,5 +1,5 @@
 ﻿# coding: utf-8
-# auteur: Oskar STAUDTE
+# auteur: Oskar STAUDTE, Patch Malo
 
 # modules utilisés:
 from tkinter import*
@@ -28,8 +28,8 @@ def longcat():
 # definiton de la fonction menu
 
 
-
 # fenetre principale
+
 fen = Tk()
 fen.title("ObscureCatMemes")
 fen.configure(bg="black")
