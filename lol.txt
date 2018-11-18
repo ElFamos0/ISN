@@ -24,3 +24,9 @@ pygame.display.set_caption("Titre de fenètre") --> permet de mettre un titre à
 
 pygame.quit() --> permet de décharger tout ce qui a été  chargé avec pygame.init() mais c'est pas très utile car python le fait déjà tout seul
 Cela peut servir seulement pour fermer tout les modules pygame et en charger qu'un seul en particulier genre le module display par exemple
+
+
+
+Dans Python c'est mieux pour un module de faire direct : 
+import le_module as mo 
+comme ça on fait dans le programme mo.fonction_dans_module(x) --> c'est plus pratik lol
