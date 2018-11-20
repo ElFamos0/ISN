@@ -1,0 +1,36 @@
+Bienvenue dans ce fabuleux projet Tksino (ta vu tk le jeu de mot tkinter)
+
+Le projet est de faire une sorte de petit casino plutot sympa avec un solde de départ dans le casino et ensuite on jouerai a différent jeux. 
+Plusieurs choses a faire : 1) Roulette 2) jeu de hasard 3) mini jeu 
+on gagne ou on perd de l'argent notre solde va être modifié. 
+Mise que l'on veut sur chaque jeu.
+
+Quand c'est le jackpot lance here comes the money, money, money, money
+et pis plein de meme différent tellement délicieux. 
+
+
+option : "Machine avec le 777" 
+
+Mode Kreygasm avec mot de passe a rentrer pour être en mode développeur et s'ajouter autant d'argent qu'on veut 
+
+
+
+Fait:
+
+
+-mise en place de la fenetre tkinter
+-icone a mettre au coin de la fenêtre
+
+
+A faire:
+-Tout le projet.
+
+
+
+
+A revoir:
+
+-L'icone est pas super lisible et belle même si elle est sympa (trop de blanc)
+
+
+POGGERS 2.0

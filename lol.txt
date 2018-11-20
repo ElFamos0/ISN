@@ -1,5 +1,6 @@
 Truc sympa sur Pygame
 
+_______________________MODULE PYGAME_______________________________________________________
 
 import pygame --> ça import le module qui faut au préalable installer sur le pip
 pygame.init() --> charge les fonctions de base pour faire fonctionner pygame
@@ -26,7 +27,51 @@ pygame.quit() --> permet de décharger tout ce qui a été  chargé avec pygame.
 Cela peut servir seulement pour fermer tout les modules pygame et en charger qu'un seul en particulier genre le module display par exemple
 
 
+______________________________MODULE ET PACKAGE________________________________________
+
 
 Dans Python c'est mieux pour un module de faire direct : 
-import le_module as mo 
-comme ça on fait dans le programme mo.fonction_dans_module(x) --> c'est plus pratik lol
+import le_module as something
+comme ça on fait dans le programme something.fonction_dans_module(x) --> c'est plus pratik lol
+
+Modularité on peut import ces propres modules tant qu'il sont dans le même fichier. Ca peut être interessant pour gagner de la simplicité dans le code. 
+
+
+Quand on veut tester le module pour voir si il marche faire un sorte de test lorsque le module est lancé comme un programme il faut rajouter quelque ligne de code pour qu'il execute une instruction seulement si il est lncer en tant que programme. Ces instructions ne seront pas exécuté lors de l'importation.
+
+pour cela on écrit : if __name__ == __main__: et les conditions d'après seront exécuté à cette condition.
+
+On peut également des dossier appeller package pour y mettre des modules dedans afin de mieux hiérarchiser des gros programmes
+
+
+_________________________________LES EXECPTIONS ___________________________________________________
+
+
+Les erreurs c'est pas cool. 
+Du coup il y a le bloc try pour tester le programme lol et pour voir si il fonctionne.
+
+
+try:
+	partie de programme
+except:
+	partie de programme qui sera exécuté si il y a une erreur. 
+
+après il existe différent execept pour être plus précis et gérer chaque erreur 
+except NameError: --> si une variable n'a pas été défini
+except TypeError: --> erreur dans les type de variable nombre et string notemment
+except ZeroDivisionError: --> les divisions par zéro qui sont vrm pas cool en math.
+On peut mettre plusieur execept à la suite avec des conditions différentes à chaque fois
+
+except type_de_exception as lol:
+	print(lol) --> Affiche les erreurs que se produisent.
+
+else: --> dans le bloc try execute ce qu'il se passe si il y a aucune erreur. 
+Essayer de le séparer tu bloc try les lignes de code sortant apès 
+
+finally: --> partie du code qui va forcement s'exexuter même si il y a une erreur 
+
+var = 5
+assert var==5 --> vérification ok
+assert var==6 --> Assertion error
+
+raise type_de_lerreur ("messsage de l'erreur")
